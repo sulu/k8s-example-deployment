@@ -110,6 +110,9 @@
     "egulias/email-validator": {
         "version": "2.1.19"
     },
+    "firebase/php-jwt": {
+        "version": "v5.2.0"
+    },
     "friendsofsymfony/http-cache": {
         "version": "2.9.2"
     },
@@ -145,6 +148,18 @@
     },
     "goodby/csv": {
         "version": "1.3.0"
+    },
+    "google/auth": {
+        "version": "v1.11.1"
+    },
+    "google/cloud-core": {
+        "version": "v1.38.0"
+    },
+    "google/cloud-storage": {
+        "version": "v1.22.0"
+    },
+    "google/crc32": {
+        "version": "v0.1.0"
     },
     "guzzlehttp/guzzle": {
         "version": "6.5.5"
@@ -207,6 +222,12 @@
     },
     "layershifter/tld-support": {
         "version": "1.1.1"
+    },
+    "league/flysystem": {
+        "version": "1.1.3"
+    },
+    "league/mime-type-detection": {
+        "version": "1.4.0"
     },
     "massive/build-bundle": {
         "version": "0.5.0"
@@ -298,6 +319,9 @@
     "ramsey/uuid": {
         "version": "3.9.3"
     },
+    "rize/uri-template": {
+        "version": "0.3.2"
+    },
     "stof/doctrine-extensions-bundle": {
         "version": "1.2",
         "recipe": {
@@ -312,6 +336,9 @@
     },
     "sulu/sulu": {
         "version": "2.1.2"
+    },
+    "superbalist/flysystem-google-storage": {
+        "version": "7.2.2"
     },
     "swiftmailer/swiftmailer": {
         "version": "v6.2.3"

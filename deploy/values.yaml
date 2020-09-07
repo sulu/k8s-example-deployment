@@ -1,0 +1,21 @@
+sulu:
+    varnish:
+        image:
+            repository: sulu/varnish
+            tag: 0.1.2
+
+    redis:
+        master:
+            persistence:
+                enabled: false
+
+    app:
+        image:
+            repository: eu.gcr.io/sulu-io/sulu-cluster
+            tag: 1.0.0
+        hooks:
+            postInstall:
+                enabled: true
+
+    google:
+        enabled: true

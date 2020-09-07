@@ -43,3 +43,6 @@ node_modules
 
 # System files
 .DS_Store
+
+deploy/secrets.yaml
+deploy/charts

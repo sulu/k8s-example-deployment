@@ -1,0 +1,6 @@
+dependencies:
+- name: sulu
+  repository: http://charts.sulu.cloud/
+  version: 1.4.1
+digest: sha256:d76b94cceae1f650be4e37d8c1d057e69449d3857f076968d5e1c45223cc3570
+generated: 2020-09-07T08:30:35.520528+02:00
