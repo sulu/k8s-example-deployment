@@ -38,13 +38,13 @@ Configure the redis password and the google cloud credentials in the secrets fil
 
 ```
 cd deploy
-helm3 dep build
-helm3 install sulu-cluster . -f secrets.yaml
+helm dep build
+helm install sulu-cluster . -f secrets.yaml
 ```
 
 ### 7. Upgrade App
 
 ```
 cd deploy
-helm3 upgrade sulu-cluster . -f secrets.yaml
+helm upgrade sulu-cluster . -f secrets.yaml
 ```
