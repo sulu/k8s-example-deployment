@@ -1,0 +1,15 @@
+sulu:
+    redis:
+        master:
+            persistence:
+                enabled: false
+
+    app:
+        image:
+            repository: eu.gcr.io/sulu-io/sulu-cluster
+        hooks:
+            postInstall:
+                enabled: true
+
+        google:
+            enabled: true
